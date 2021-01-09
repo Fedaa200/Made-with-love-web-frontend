@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import { Card, NavDropdown, Row, Col, Container } from "react-bootstrap";
+import { Card, Row, Col, Container } from "react-bootstrap";
 import down from "../images/down.jpg";
 import $ from "jquery";
 import { Control, Form } from "react-redux-form";

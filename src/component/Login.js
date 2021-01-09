@@ -1,4 +1,3 @@
-
 import $ from "jquery";
 import React from "react";
 import { Control, Form } from "react-redux-form";
@@ -7,7 +6,7 @@ import logo from "../images/logo.png";
 import heart from "../images/heart.jpg";
 import down from "../images/down.jpg";
 import { Link } from "react-router-dom";
-import { Card, NavDropdown, Row, Col, Container } from "react-bootstrap";
+import { Card, Row, Col, Container } from "react-bootstrap";
 import GoogleLogin from "react-google-login";
 import FacebookLogin from "react-facebook-login";
 

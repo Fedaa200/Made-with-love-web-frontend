@@ -1,9 +1,7 @@
 import { Control, Form } from "react-redux-form";
 import StripeCheckout from "react-stripe-checkout";
-import axios from "axios";
 import { toast } from "react-toastify";
 import NavbarBuyer from "./layout/NavbarBuyer.js";
-
 import "../Style/map.css";
 import app from "./fireConfig";
 import React, { Component } from "react";

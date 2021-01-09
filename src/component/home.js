@@ -2,7 +2,6 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import rose from "../images/rose.png";
 import NavbarSeller from "./layout/NavbarSeller";
 import NavbarBuyer from "./layout/NavbarBuyer";
 import down from "../images/down.jpg";
