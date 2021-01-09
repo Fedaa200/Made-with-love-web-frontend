@@ -14,7 +14,7 @@ const About = () => {
       <div
         style={{
           width: "100%",
-          height: "700px",
+          height: "600px",
           backgroundImage: `url(${about10})`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
@@ -36,7 +36,7 @@ const About = () => {
               }}
             >
               <a href="/">
-                <img src={logo1} width="200" height="180" />
+                <img src={logo1} width="180" height="150" />
               </a>
             </div>
             {/* <Col md="auto">
@@ -92,7 +92,7 @@ const About = () => {
       </div>
       <br></br> <br></br>
       <div>
-        <Row style={{ marginTop: "150px", marginLeft: "20px" }}>
+        <Row style={{ marginTop: "150px", marginLeft: "7px" }}>
           <Col className="col-6">
             <img
               src={story20}
@@ -100,14 +100,14 @@ const About = () => {
                 border: "solid  white 3px",
                 borderRadius: "10px",
               }}
-              width="700px"
-              height="550px"
+              width="500px"
+              height="400px"
             ></img>
           </Col>
-          <Col className="col-6" style={{ marginTop: "90px" }}>
+          <Col className="col-6" style={{ marginTop: "-10px" }}>
             <h1>Our Story</h1>
             <br />
-            <p style={{ fontSize: "31px", fontFamily: "Yanone Kaffeesatz" }}>
+            <p style={{ fontSize: "23px", fontFamily: "Yanone Kaffeesatz" }}>
               We support homemade businesses by providing them with a space
               (online store ) to showcase and <br />
               sell their unique products , introducing them to a larger market

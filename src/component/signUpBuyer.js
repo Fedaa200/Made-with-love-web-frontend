@@ -61,8 +61,8 @@ const responseFacebook = (response) => {
     },
     error: function (err) {
       console.log(err);
-      alert("email already exist");
-      window.location = "/login";
+      // alert("email already exist");
+      // window.location = "/login";
     },
   });
 };
@@ -142,7 +142,7 @@ function SignUpBuyer(props) {
           backgroundPosition: "center",
           backgroundImage: `url(${buyer2})`,
           backgroundSize: "cover",
-          height: "650px",
+          height: "500px",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
 
@@ -185,7 +185,7 @@ function SignUpBuyer(props) {
                 href="/"
                 style={{
                   color: "#FCFBED",
-                  fontSize: "30px",
+                  fontSize: "25px",
                   fontFamily: "Yanone Kaffeesatz",
                 }}
               >
@@ -199,9 +199,9 @@ function SignUpBuyer(props) {
               <div
                 style={{
                   float: "none",
-                  marginLeft: "360px",
+                  marginLeft: "350",
                   marginRight: "100px",
-                  marginTop: "60px",
+                  marginTop: "50",
                 }}
               >
                 <a href="/">
@@ -222,7 +222,7 @@ function SignUpBuyer(props) {
                 style={{
                   fontFamily: "Yanone Kaffeesatz",
                   float: "none",
-                  fontSize: "55px",
+                  fontSize: "40px",
                   color: "#FCFBED",
                 }}
               >
@@ -246,8 +246,8 @@ function SignUpBuyer(props) {
               style={{
                 fontFamily: "Yanone Kaffeesatz",
                 float: "none",
-                margin: "-60px 900px 0px 900px",
-                fontSize: "70px",
+                margin: "-80px 600px 0px 600px",
+                fontSize: "50px",
               }}
             >
               Sign Up
@@ -257,9 +257,9 @@ function SignUpBuyer(props) {
       </div>
       <Card
         style={{
-          width: "800px",
+          width: "600px",
           margin: "200px auto",
-          height: "700px",
+          height: "600px",
           padding: "25px 0px 10px 25px",
         }}
       >
@@ -279,16 +279,16 @@ function SignUpBuyer(props) {
                   class="form-label"
                   style={{
                     fontFamily: "Yanone Kaffeesatz",
-                    fontSize: "28px",
+                    fontSize: "24px",
                   }}
                 >
                   Email address
                 </label>
                 <Control.text
                   style={{
-                    width: "600px",
+                    width: "500px",
 
-                    height: "60px",
+                    height: "50",
                   }}
                   autocomplete="off"
                   name="email"
@@ -306,16 +306,16 @@ function SignUpBuyer(props) {
                   class="form-label"
                   style={{
                     fontFamily: "Yanone Kaffeesatz",
-                    fontSize: "28px",
+                    fontSize: "24px",
                   }}
                 >
                   password
                 </label>
                 <Control.text
                   style={{
-                    width: "600px",
+                    width: "500px",
 
-                    height: "60px",
+                    height: "50",
                   }}
                   autocomplete="off"
                   name="password"
@@ -333,16 +333,16 @@ function SignUpBuyer(props) {
                   class="form-label"
                   style={{
                     fontFamily: "Yanone Kaffeesatz",
-                    fontSize: "28px",
+                    fontSize: "24px",
                   }}
                 >
                   userName
                 </label>
                 <Control.text
                   style={{
-                    width: "600px",
+                    width: "500px",
 
-                    height: "60px",
+                    height: "50",
                   }}
                   autocomplete="off"
                   name="userName"
@@ -360,16 +360,16 @@ function SignUpBuyer(props) {
                   class="form-label"
                   style={{
                     fontFamily: "Yanone Kaffeesatz",
-                    fontSize: "28px",
+                    fontSize: "24px",
                   }}
                 >
                   Phone Number
                 </label>
                 <Control.text
                   style={{
-                    width: "600px",
+                    width: "500px",
 
-                    height: "60px",
+                    height: "50",
                   }}
                   autocomplete="off"
                   name="phoneNumber"
@@ -388,8 +388,8 @@ function SignUpBuyer(props) {
                     style={{
                       borderRadius: "10px",
                       border: "2px solid white",
-                      fontSize: "25px",
-                      padding: "14px 28px",
+                      fontSize: "20px",
+                      padding: "14px 24px",
                       fontFamily: "Yanone Kaffeesatz",
                       marginTop: "50px",
                     }}
@@ -429,7 +429,7 @@ function SignUpBuyer(props) {
         style={{
           width: "100%",
           marginTop: "150px",
-          height: "600px",
+          height: "500px",
           backgroundImage: `url(${down})`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
@@ -510,7 +510,6 @@ function SignUpBuyer(props) {
           </Row>
         </Container>
       </div>
-      
     </div>
   );
 }

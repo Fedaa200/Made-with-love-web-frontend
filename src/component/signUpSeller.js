@@ -135,7 +135,7 @@ function SignUpSeller(props) {
           backgroundPosition: "center",
           backgroundImage: `url(${Seller})`,
           backgroundSize: "cover",
-          height: "560px",
+          height: "600px",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
 
@@ -234,7 +234,7 @@ function SignUpSeller(props) {
               style={{
                 fontFamily: "Yanone Kaffeesatz",
                 float: "none",
-                margin: "10px 500px 0px 500px",
+                margin: "10px 600px 0px 600px",
                 fontSize: "40px",
               }}
             >
